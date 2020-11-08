@@ -23,6 +23,10 @@ def exemplo_textos_parte_2():
 
     st.markdown("""
         ### O que aprendemos ###
+        
+        ```
+        exemplo de código
+        ```
 
         Markdown é maravilhoso, e mais maravilhoso ainda é poder usar isso no streamlit
         

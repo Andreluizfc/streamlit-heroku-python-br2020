@@ -54,7 +54,7 @@ def exemplo_plots():
         columns=['a', 'b', 'c']
     )
 
-    st.area_chart(chart_data)  # Troque esse area_chart por um bar_chart
+    st.bar_chart(chart_data)  # Troque esse area_chart por um bar_chart
 
     # Tente criar um selectbox, pra escolha de gráfico. Associe ele a uma variável, e aí crie um if
     # para dependendo do valor dessa variável, ele chama um gráfico (por exemplo bar_chart e area_chart)
